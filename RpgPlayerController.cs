@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+//2D rpg controller managing sorting layers and movement as well as organized code by using Enums as specified names for gear slots. this gear can be switched with respective ScriptableObjects
 public class RpgPlayerController : MonoBehaviour
 {
     public static PlayerMovement SP;
