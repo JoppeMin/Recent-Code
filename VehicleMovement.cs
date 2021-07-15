@@ -7,7 +7,8 @@ using UnityEngine.UI;
 using Cinemachine;
 using DG.Tweening;
 
-
+//Sideview car game where you can charge in two directions, when you're in air you can charge only once more, when your car is grounded it will reset these jumps, 
+//when rolled over the car will roll itself back on its wheels
 public class VehicleMovement : MonoBehaviour
 {
     public @InputSystem _controls;
