@@ -7,6 +7,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine.Audio;
 
+//manages the languagues in the options menu, converting the Enum's to strings and looking them up in an XML document to get the proper translations once switched
 public class LocalizationOptions : MonoBehaviour
 {
 
