@@ -32,7 +32,8 @@ public class GooglePlayLeaderboardHandler : MonoBehaviour
     IEnumerator UpdateHighscoreText(int score)
     {
         int tempscore = score;
-
+            
+//Ticks up when your achieved score is higher than your previous highscore
         if (tempscore != highscore)
         {
             highScoreText.SetText(tempscore.ToString());
@@ -51,6 +52,7 @@ public class GooglePlayLeaderboardHandler : MonoBehaviour
 
     public void UpdateLeaderboardScreen()
     {
+    //Fetches users from Google Play leaderboard and displays the top 6 users. if you're not in the top 6 it will always display you at 6
         List<string> topSix = new List<string>();
 
         Social.LoadScores(GPGSIds.leaderboard_highscore, leaderboard =>
