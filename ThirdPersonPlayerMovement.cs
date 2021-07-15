@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+//still in-progress 3rd person movement controller for a high mobility action game
 public class ThirdPersonPlayerMovement : MonoBehaviour
 {
     ActionMap input;
